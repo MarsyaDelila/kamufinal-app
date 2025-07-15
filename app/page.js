@@ -18,7 +18,7 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold mb-6">Connect With Us</h1>
+      <h1 className="text-3xl font-bold mb-6">Masuk ke KamusKita</h1>
       <form onSubmit={handleLogin} className="space-y-4 w-80">
         <input
           type="email"
@@ -34,7 +34,7 @@ export default function LoginPage() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit" className="w-full bg-black text-white py-2 rounded">
+        <button type="submit" className="w-full bg-pink-300 text-black py-2 rounded">
           Sign In
         </button>
       </form>
